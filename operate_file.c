@@ -37,7 +37,7 @@ static int get_trace_ts(const char *ts){
 		}
 	}
 	
-	// 如果文件为空，则关闭
+	// 如果文件为空，则关闭,所以就是为什么走了两次close
 	fclose(fp);
 	return -1;
 	
