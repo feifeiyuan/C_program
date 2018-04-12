@@ -4,6 +4,7 @@
 #include <stdarg.h>
 #include <sys/time.h>
 
+// 算法计算耗时
 int main(void){
 	float timeuse_start=0.0;
 	float timeuse_end=0.0;
