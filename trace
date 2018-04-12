@@ -1,0 +1,508 @@
+# tracer: nop
+#
+# entries-in-buffer/entries-written: 497/497   #P:8
+#
+#                              _-----=> irqs-off
+#                             / _----=> need-resched
+#                            | / _---=> hardirq/softirq
+#                            || / _--=> preempt-depth
+#                            ||| /     delay
+#           TASK-PID   CPU#  ||||    TIMESTAMP  FUNCTION
+#              | |       |   ||||       |         |
+            init-3332  [001] ....     6.381779: f2fs_trace_ios: 103: 19    0 ----------------  3    70          200    1
+            init-3332  [001] ....     6.382395: f2fs_trace_ios: 103: 19    0 ----------------  3    70          204    1
+            init-3332  [001] ....     6.383051: f2fs_trace_ios: 103: 19    0 ----------------  3    70          400    1
+            init-3332  [004] ....     6.418760: f2fs_trace_ios: 103: 19    0 ----------------  3    70          404    1
+            init-3332  [004] ....     6.419230: f2fs_trace_ios: 103: 19    0 ----------------  3    70          402    2
+            init-3332  [004] ....     6.419559: f2fs_trace_ios: 103: 19    0 ----------------  3    70         459b    1
+            init-3332  [004] ....     6.435292: f2fs_trace_ios: 103: 19    0 ----------------  3    50        79000  200
+            init-3332  [004] ....     6.435625: f2fs_trace_ios: 103: 19    0 ----------------  3    70         4555    1
+            init-3332  [000] ....     6.454854: f2fs_trace_ios: 103: 19    0 ----------------  3    50        70400  200
+            init-3332  [000] ....     6.455279: f2fs_trace_ios: 103: 19    0 ----------------  3    70         4209    1
+            init-3332  [000] ....     6.475787: f2fs_trace_ios: 103: 19    0 ----------------  3    50         6c00  200
+            init-3332  [000] ....     6.476253: f2fs_trace_ios: 103: 19    0 ----------------  3    70          600    1
+            init-3332  [000] ....     6.476832: f2fs_trace_ios: 103: 19    0 ----------------  3    70          801    3
+            init-3332  [000] ....     6.477151: f2fs_trace_ios: 103: 19    0 ----------------  3    70          604    1
+            init-3332  [000] ....     6.477449: f2fs_trace_ios: 103: 19    0 ----------------  3    70          805    1
+            init-3332  [000] ....     6.477761: f2fs_trace_ios: 103: 19    0 ----------------  3    70          606    1
+            init-3332  [000] ....     6.478414: f2fs_trace_ios: 103: 19    0 ----------------  3    70          807    4
+            init-3332  [000] ....     6.479139: f2fs_trace_ios: 103: 19    0 ----------------  3    70          60b    4
+            init-3332  [000] ....     6.479458: f2fs_trace_ios: 103: 19    0 ----------------  3    70          80f    1
+            init-3332  [004] ....     6.491400: f2fs_trace_ios: 103: 19    0 ----------------  3    70          610   5e
+            init-3332  [004] ....     6.491481: f2fs_trace_ios: 103: 19    0 ----------------  3    70          c14    1
+            init-3332  [004] ....     6.494455: f2fs_trace_ios: 103: 19    0 ----------------  3    70          a15    3
+            init-3332  [004] ....     6.494542: f2fs_trace_ios: 103: 19    0 ----------------  3  4000          a18    4
+            init-3332  [004] ....     6.495149: f2fs_trace_ios: 103: 19    0 ----------------  3    70          401    1
+            init-3332  [004] ....     6.495407: f2fs_trace_ios: 103: 19    0 ----------------  3    70          a06    1
+            init-3332  [004] ...2     6.495837: f2fs_trace_pid: 103: 19  d04 init            
+            init-3332  [004] ....     6.496340: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70102    2
+            init-3332  [004] ....     6.496608: f2fs_trace_ios: 103: 19    0 ----------------  3    70          a07    1
+            init-3332  [004] ....     6.496992: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fcc8    1
+            init-3332  [004] ....     6.497701: f2fs_trace_ios: 103: 19    0 ----------------  2    10        702f8    1
+            init-3332  [004] ....     6.498238: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fb4e    1
+            init-3332  [004] ....     6.498971: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fccf    2
+            init-3332  [004] ....     6.499646: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70111    2
+            init-3332  [004] ....     6.500317: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70104    2
+            init-3332  [004] ....     6.501041: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7011a    2
+            init-3332  [004] ....     6.501399: f2fs_trace_ios: 103: 19    0 ----------------  2    10        702fe    1
+            init-3332  [004] ....     6.502027: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7011c    1
+            init-3332  [004] ....     6.503224: f2fs_trace_ios: 103: 19    0 ----------------  2    10        702ff    3
+            init-3332  [004] ....     6.503860: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70106    2
+            init-3332  [004] ....     6.504629: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7010f    2
+            init-3332  [004] ....     6.505290: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70113    2
+            init-3332  [004] ....     6.505620: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70303    1
+            init-3332  [004] ....     6.506271: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7011d    1
+            init-3332  [004] ....     6.506689: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70304    1
+            init-3332  [004] ....     6.507364: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70115    2
+            init-3332  [004] ....     6.508204: f2fs_trace_ios: 103: 19    0 ----------------  2    10        702f9    2
+            init-3332  [004] ....     6.509693: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7011e    4
+            init-3332  [004] ....     6.510341: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70108    2
+            init-3332  [004] ....     6.510975: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fb5e    2
+            init-3332  [004] ....     6.513212: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fb43    4
+            init-3332  [004] ....     6.514574: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fcd1    2
+            init-3332  [004] ....     6.516319: f2fs_trace_ios: 103: 19    0 ----------------  2    10        702e6    2
+            init-3332  [004] ....     6.517188: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fb42    1
+            init-3332  [004] ....     6.517893: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70122    1
+            init-3332  [004] ....     6.518492: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fcd3    1
+            init-3332  [004] ....     6.519061: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70123    1
+            init-3332  [004] ....     6.519388: f2fs_trace_ios: 103: 19    0 ----------------  2    10        702e9    1
+            init-3332  [004] ....     6.519860: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fb47    1
+            init-3332  [004] ....     6.520525: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70124    2
+            init-3332  [004] ....     6.521216: f2fs_trace_ios: 103: 19    0 ----------------  2    10        702ea    2
+            init-3332  [000] ....     6.522373: f2fs_trace_ios: 103: 19    0 ----------------  2    10        702ee    2
+            init-3332  [000] ....     6.523284: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7010a    2
+            init-3332  [000] ....     6.524032: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70126    2
+            init-3332  [000] ....     6.524764: f2fs_trace_ios: 103: 19    0 ----------------  2    10        702f0    2
+            init-3332  [000] ....     6.525518: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7010c    2
+            init-3332  [000] ....     6.526275: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70128    2
+            init-3332  [000] ....     6.526677: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70100    1
+            init-3332  [000] ....     6.527512: f2fs_trace_ios: 103: 19    0 ----------------  2    10        702e8    1
+            init-3332  [000] ....     6.528256: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70101    1
+            init-3332  [000] ....     6.529010: f2fs_trace_ios: 103: 19    0 ----------------  2    10        702f2    2
+            init-3332  [000] ....     6.529774: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70305    2
+            init-3332  [000] ....     6.531502: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7012a    3
+            init-3332  [000] ....     6.532655: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fb48    2
+            init-3332  [000] ....     6.534206: f2fs_trace_ios: 103: 19    0 ----------------  2    10        702f4    4
+            init-3332  [000] ....     6.534968: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fb4a    2
+            init-3332  [000] ....     6.535990: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7012d    2
+            init-3332  [000] ....     6.536374: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7010e    1
+            init-3332  [000] ....     6.537910: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fb4c    2
+            init-3332  [000] ....     6.538676: f2fs_trace_ios: 103: 19    0 ----------------  2    10        702ec    2
+            init-3332  [000] ....     6.539430: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70307    2
+            init-3332  [000] ....     6.540372: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7012f    2
+            init-3332  [000] ....     6.540686: f2fs_trace_ios: 103: 19    0 ----------------  3    70          c00    1
+            init-3332  [000] ....     6.541386: f2fs_trace_ios: 103: 19    0 ----------------  2    10        78849    1
+            init-3332  [001] ....     6.547019: f2fs_trace_ios: 103: 19    0 ----------------  3    50        70451   81
+            logd-3345  [006] ....     6.811080: f2fs_trace_ios: 103: 19    0 ----------------  2    10         6c01    1
+            logd-3345  [006] ....     6.811501: f2fs_trace_ios: 103: 19    0 ----------------  1    10        6c72d    1
+            logd-3345  [006] ....     6.812180: f2fs_trace_ios: 103: 19    0 ----------------  2    10        78e4e    1
+ ActivityManager-3866  [003] ....    62.720108: f2fs_trace_ios: 103: 19 120e ----------------  1   411        6cd69    1
+ ActivityManager-3866  [003] ....    62.720196: f2fs_trace_ios: 103: 19 14b5 ----------------  1   411        6cd6a    2
+ ActivityManager-3866  [003] ....    62.720247: f2fs_trace_ios: 103: 19  f1a ----------------  1   411        6cd6c    1
+ ActivityManager-3866  [003] ....    62.720268: f2fs_trace_ios: 103: 19  1ef ----------------  2   411        791a8    1
+ ActivityManager-3866  [003] ....    62.720282: f2fs_trace_ios: 103: 19  1ff ----------------  2   411        791a9    1
+ ActivityManager-3866  [003] ....    62.720298: f2fs_trace_ios: 103: 19  f1a ----------------  2   411        791aa    1
+ ActivityManager-3866  [003] ....    62.720347: f2fs_trace_ios: 103: 19 14b5 ----------------  2   411        791ab    2
+ ActivityManager-3866  [003] ....    62.720376: f2fs_trace_ios: 103: 19  1ff ----------------  2   411        707d8    2
+ ActivityManager-3866  [003] ....    62.720401: f2fs_trace_ios: 103: 19  1ef ----------------  2   411        707da    2
+ ActivityManager-3866  [003] ....    62.721271: f2fs_trace_ios: 103: 19  f1a ----------------  2   411        707dc    1
+ ActivityManager-3866  [003] ....    62.722135: f2fs_trace_ios: 103: 19  f1a ----------------  3   471          80e    3
+ ActivityManager-3866  [003] ....    62.724609: f2fs_trace_ios: 103: 19  f1a ----------------  3   471          400    4
+ notification-sq-4017  [005] ....    62.733127: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        69239    4
+ notification-sq-4017  [004] ....    62.734163: f2fs_trace_ios: 103: 19  fb1 ----------------  2   411        707dd    1
+ notification-sq-4017  [004] ....    62.734681: f2fs_trace_ios: 103: 19  f1a ----------------  1   411        6cd6d    2
+ notification-sq-4017  [004] ....    62.734719: f2fs_trace_ios: 103: 19  fb1 ----------------  2   411        791ad    1
+ notification-sq-4017  [004] ....    62.734936: f2fs_trace_ios: 103: 19  f1a ----------------  2   411        707de    1
+ notification-sq-4017  [004] ....    62.735414: f2fs_trace_ios: 103: 19  fb1 ----------------  3   471          60e    3
+ notification-sq-4017  [004] ....    62.736772: f2fs_trace_ios: 103: 19  fb1 ----------------  3   471          200    4
+ notification-sq-4017  [004] ....    62.738397: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        69239    1
+ notification-sq-4017  [004] ....    62.738629: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        6b889    1
+ notification-sq-4017  [004] ....    62.738704: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        42073    1
+ notification-sq-4017  [004] ....    62.741519: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        6920e    1
+ notification-sq-4017  [004] ....    62.742462: f2fs_trace_ios: 103: 19  fb1 ----------------  2   411        707df    1
+ notification-sq-4017  [005] ....    62.744444: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        6923d    4
+ notification-sq-4017  [005] ....    62.745839: f2fs_trace_ios: 103: 19  fb1 ----------------  2   411        707e0    1
+ notification-sq-4017  [005] ....    62.747731: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        6923d    1
+ notification-sq-4017  [005] ....    62.747942: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        6b889    1
+ notification-sq-4017  [005] ....    62.747980: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        42073    1
+ notification-sq-4017  [004] ....    62.749745: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        6920e    1
+ notification-sq-4017  [004] ....    62.750808: f2fs_trace_ios: 103: 19  fb1 ----------------  2   411        707e1    1
+ notification-sq-4017  [004] ....    62.755855: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        69241    4
+ notification-sq-4017  [005] ....    62.758348: f2fs_trace_ios: 103: 19  fb1 ----------------  2   411        707e2    1
+ notification-sq-4017  [005] ....    62.760136: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        69241    1
+ notification-sq-4017  [005] ....    62.760742: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        6b889    1
+ notification-sq-4017  [005] ....    62.761327: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        42073    1
+ notification-sq-4017  [005] ....    62.762560: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        6920e    1
+      android.bg-3865  [004] ....    62.764625: f2fs_trace_ios: 103: 19  fb1 ----------------  2   411        707e3    1
+ notification-sq-4017  [005] ....    62.765201: f2fs_trace_ios: 103: 19  f19 ----------------  0   411        69245    3
+      android.bg-3865  [005] ....    62.765552: f2fs_trace_ios: 103: 19  f19 ----------------  1   411        6cd6f    1
+      android.bg-3865  [005] ....    62.765586: f2fs_trace_ios: 103: 19  f19 ----------------  2   411        791ae    1
+      android.bg-3865  [005] ....    62.765802: f2fs_trace_ios: 103: 19  f19 ----------------  2   411        707e4    1
+      android.bg-3865  [005] ....    62.766909: f2fs_trace_ios: 103: 19  f19 ----------------  3   471          80e    3
+      android.bg-3865  [005] ....    62.768643: f2fs_trace_ios: 103: 19  f19 ----------------  3   471          400    4
+ d.process.media-4681  [000] ....    64.888175: f2fs_trace_ios: 103: 19 1249 ----------------  0   411        15b23    1
+ ActivityManager-3866  [002] ....    65.523132: f2fs_trace_ios: 103: 19  f19 ----------------  1   411        6cd70    1
+ ActivityManager-3866  [002] ....    65.523221: f2fs_trace_ios: 103: 19 1249 ----------------  1   411        6cd71    1
+ ActivityManager-3866  [002] ....    65.523291: f2fs_trace_ios: 103: 19  f1a ----------------  1   411        6cd72    1
+ ActivityManager-3866  [002] ....    65.523321: f2fs_trace_ios: 103: 19  71f ----------------  2   411        791af    1
+ ActivityManager-3866  [002] ....    65.523422: f2fs_trace_ios: 103: 19  f1a ----------------  2   411        791b0    2
+ ActivityManager-3866  [002] ....    65.523445: f2fs_trace_ios: 103: 19  f19 ----------------  2   411        707e5    1
+ ActivityManager-3866  [002] ....    65.523881: f2fs_trace_ios: 103: 19  f1a ----------------  2   411        707e6    1
+ ActivityManager-3866  [002] ....    65.523972: f2fs_trace_ios: 103: 19  f1a ----------------  3   471          60e    3
+ ActivityManager-3866  [000] .n..    65.526623: f2fs_trace_ios: 103: 19  f1a ----------------  3   471          c16    1
+ ActivityManager-3866  [000] ....    65.529056: f2fs_trace_ios: 103: 19  f1a ----------------  3   471          200    4
+   system_server-3877  [000] .n.1    66.261802: suspend_resume: suspend_enter[3] begin
+   system_server-3877  [000] ...1    66.261923: suspend_resume: sync_filesystems[0] begin
+   kworker/u16:4-511   [002] ....    66.268113: f2fs_trace_ios: 103: 19  f1a ----------------  0     1        69248    2
+   system_server-3877  [000] ....    66.272911: f2fs_trace_ios: 103: 19  f1a ----------------  1   411        6cd73    2
+   system_server-3877  [000] ....    66.275697: f2fs_trace_ios: 103: 19  1ff ----------------  2   411        791b2    1
+   system_server-3877  [000] ....    66.275972: f2fs_trace_ios: 103: 19  1ff ----------------  2   411        707e7    7
+   system_server-3877  [000] ....    66.276207: f2fs_trace_ios: 103: 19  f1a ----------------  2   411        707ee    1
+   system_server-3877  [000] ....    66.277372: f2fs_trace_ios: 103: 19  f25 ----------------  3   471          80e    3
+   system_server-3877  [000] ....    66.278572: f2fs_trace_ios: 103: 19  f25 ----------------  3   471          400    4
+   system_server-3877  [000] ...1    66.279781: suspend_resume: sync_filesystems[0] end
+   system_server-3877  [004] ...1    66.295756: suspend_resume: freeze_processes[0] begin
+   system_server-3877  [004] ...1    66.298307: suspend_resume: thaw_processes[0] begin
+   system_server-3877  [004] ...1    66.301016: suspend_resume: thaw_processes[0] end
+   system_server-3877  [004] ...1    66.301020: suspend_resume: freeze_processes[0] end
+   system_server-3877  [000] ...1    66.507203: suspend_resume: suspend_enter[3] begin
+   system_server-3877  [000] ...1    66.507277: suspend_resume: sync_filesystems[0] begin
+   system_server-3877  [000] ...1    66.529015: suspend_resume: sync_filesystems[0] end
+   system_server-3877  [000] ...1    66.532533: suspend_resume: freeze_processes[0] begin
+   system_server-3877  [000] ...1    66.545213: suspend_resume: freeze_processes[0] end
+   system_server-3877  [000] ...1    66.545221: suspend_resume: suspend_enter[3] end
+   system_server-3877  [000] ...1    66.545385: suspend_resume: dpm_prepare[2] begin
+   system_server-3877  [000] ...1    66.554859: suspend_resume: dpm_prepare[2] end
+   system_server-3877  [000] ...1    66.554866: suspend_resume: dpm_suspend[2] begin
+   system_server-3877  [000] ...1    66.616087: suspend_resume: dpm_suspend[2] end
+   system_server-3877  [000] ...1    66.616098: suspend_resume: dpm_suspend_late[2] begin
+   system_server-3877  [004] ...1    66.645862: suspend_resume: dpm_suspend_late[2] end
+   system_server-3877  [004] ...1    66.645873: suspend_resume: dpm_suspend_noirq[2] begin
+   system_server-3877  [000] ...1    66.672277: suspend_resume: dpm_suspend_noirq[2] end
+   system_server-3877  [000] ...1    66.672310: suspend_resume: CPU_OFF[1] begin
+   system_server-3877  [000] ...1    66.764596: suspend_resume: CPU_OFF[1] end
+   system_server-3877  [000] ...1    66.764605: suspend_resume: CPU_OFF[2] begin
+   system_server-3877  [000] ...1    66.843547: suspend_resume: CPU_OFF[2] end
+   system_server-3877  [000] ...1    66.843555: suspend_resume: CPU_OFF[3] begin
+   system_server-3877  [000] ...1    66.902070: suspend_resume: CPU_OFF[3] end
+   system_server-3877  [000] ...1    66.902079: suspend_resume: CPU_OFF[4] begin
+   system_server-3877  [000] ...1    66.960831: suspend_resume: CPU_OFF[4] end
+   system_server-3877  [000] ...1    66.960838: suspend_resume: CPU_OFF[5] begin
+   system_server-3877  [000] ...1    67.019778: suspend_resume: CPU_OFF[5] end
+   system_server-3877  [000] ...1    67.019786: suspend_resume: CPU_OFF[6] begin
+   system_server-3877  [000] ...1    67.078842: suspend_resume: CPU_OFF[6] end
+   system_server-3877  [000] ...1    67.078851: suspend_resume: CPU_OFF[7] begin
+   system_server-3877  [000] ...1    67.117357: suspend_resume: CPU_OFF[7] end
+   system_server-3877  [000] d..1    67.117367: suspend_resume: syscore_suspend[0] begin
+   system_server-3877  [000] d..1    67.117378: suspend_resume: syscore_suspend[0] end
+   system_server-3877  [000] d..1    67.117378: suspend_resume: machine_suspend[3] begin
+   system_server-3877  [000] d..1    67.117378: suspend_resume: machine_suspend[3] end
+   system_server-3877  [000] d..1    67.117378: suspend_resume: syscore_resume[0] begin
+   system_server-3877  [000] dn.1    67.117393: suspend_resume: syscore_resume[0] end
+   system_server-3877  [000] ...1    67.117955: suspend_resume: CPU_ON[1] begin
+   system_server-3877  [000] ...1    67.169747: suspend_resume: CPU_ON[1] end
+   system_server-3877  [000] ...1    67.170556: suspend_resume: CPU_ON[2] begin
+   system_server-3877  [000] ...1    67.221013: suspend_resume: CPU_ON[2] end
+   system_server-3877  [000] ...1    67.221935: suspend_resume: CPU_ON[3] begin
+   system_server-3877  [000] ...1    67.282709: suspend_resume: CPU_ON[3] end
+   system_server-3877  [000] ...1    67.283305: suspend_resume: CPU_ON[4] begin
+   system_server-3877  [000] ...1    67.347460: suspend_resume: CPU_ON[4] end
+   system_server-3877  [000] ...1    67.348097: suspend_resume: CPU_ON[5] begin
+   system_server-3877  [000] ...1    67.407981: suspend_resume: CPU_ON[5] end
+   system_server-3877  [000] ...1    67.408539: suspend_resume: CPU_ON[6] begin
+   system_server-3877  [000] ...1    67.470898: suspend_resume: CPU_ON[6] end
+   system_server-3877  [000] ...1    67.471729: suspend_resume: CPU_ON[7] begin
+   system_server-3877  [000] ...1    67.558256: suspend_resume: CPU_ON[7] end
+   system_server-3877  [000] ...1    67.558873: suspend_resume: dpm_resume_noirq[16] begin
+   system_server-3877  [000] ...1    67.571692: suspend_resume: dpm_resume_noirq[16] end
+   system_server-3877  [000] ...1    67.571699: suspend_resume: dpm_resume_early[16] begin
+   system_server-3877  [000] ...1    67.588398: suspend_resume: dpm_resume_early[16] end
+   system_server-3877  [000] ...1    67.588408: suspend_resume: dpm_resume[16] begin
+   system_server-3877  [000] ...1    67.601033: suspend_resume: dpm_resume[16] end
+   system_server-3877  [000] ...1    67.601041: suspend_resume: dpm_complete[16] begin
+   system_server-3877  [000] ...1    67.607035: suspend_resume: dpm_complete[16] end
+   system_server-3877  [000] ...1    67.607041: suspend_resume: resume_console[3] begin
+   system_server-3877  [000] ...1    67.608784: suspend_resume: resume_console[3] end
+   system_server-3877  [000] ...1    67.608826: suspend_resume: thaw_processes[0] begin
+   system_server-3877  [004] ...1    67.631441: suspend_resume: thaw_processes[0] end
+   Profile Saver-4056  [004] ...2    67.637703: f2fs_trace_pid: 103: 19  fd8 Profile Saver   
+ BackgroundDexOp-5348  [000] ....    67.704423: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7020d    1
+   Profile Saver-4143  [004] ...2    67.706424: f2fs_trace_pid: 103: 19 102f Profile Saver   
+ BackgroundDexOp-5348  [000] ....    67.758618: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7020c    1
+ BackgroundDexOp-5348  [000] ....    67.759906: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7036a    1
+ BackgroundDexOp-5348  [004] ....    67.774503: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70369    1
+ BackgroundDexOp-5348  [004] ....    67.775116: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7036e    1
+ BackgroundDexOp-5348  [004] ....    67.783159: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7036d    1
+ BackgroundDexOp-5348  [004] ....    67.783885: f2fs_trace_ios: 103: 19    0 ----------------  2    10        78aaa    1
+ BackgroundDexOp-5348  [004] ....    67.784252: f2fs_trace_ios: 103: 19    0 ----------------  1    10        6c3f2    1
+ BackgroundDexOp-5348  [004] ....    67.784628: f2fs_trace_ios: 103: 19    0 ----------------  2    10        78aab    1
+ BackgroundDexOp-5348  [004] ....    67.784943: f2fs_trace_ios: 103: 19    0 ----------------  1    10        6c367    1
+ BackgroundDexOp-5348  [004] ....    67.785368: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70372    1
+ BackgroundDexOp-5348  [004] ....    67.795924: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70371    1
+ BackgroundDexOp-5348  [004] ....    67.803410: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fb66    1
+ BackgroundDexOp-5348  [004] ....    67.804128: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70378    1
+ BackgroundDexOp-5348  [004] ....    67.812289: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70377    1
+ BackgroundDexOp-5348  [004] ....    67.813021: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7037c    1
+ BackgroundDexOp-5348  [004] ....    67.827964: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7037b    1
+ BackgroundDexOp-5348  [004] ....    67.828749: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70381    1
+ BackgroundDexOp-5348  [004] ....    67.839286: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70380    1
+ BackgroundDexOp-5348  [004] ....    67.839980: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70385    1
+ BackgroundDexOp-5348  [004] ....    67.847863: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70384    1
+ BackgroundDexOp-5348  [004] ....    67.848594: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70076    1
+ BackgroundDexOp-5348  [004] ....    67.867965: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70075    1
+ BackgroundDexOp-5348  [004] ....    67.868717: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7007e    1
+ BackgroundDexOp-5348  [004] ....    67.902792: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7007d    1
+ BackgroundDexOp-5348  [004] ....    67.903933: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7039a    1
+ BackgroundDexOp-5348  [004] ....    67.914571: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70399    1
+ BackgroundDexOp-5348  [004] ....    67.915309: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7039e    1
+ BackgroundDexOp-5348  [004] ....    67.937749: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7039d    1
+ BackgroundDexOp-5348  [004] ....    67.938541: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703a9    1
+ BackgroundDexOp-5348  [004] ....    67.954718: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703a8    1
+ BackgroundDexOp-5348  [004] ....    67.955489: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703af    1
+ BackgroundDexOp-5348  [004] ....    67.964322: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703ae    1
+ BackgroundDexOp-5348  [004] ....    67.965096: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703b3    1
+ BackgroundDexOp-5348  [004] ....    67.973549: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703b2    1
+ BackgroundDexOp-5348  [005] ....    67.974867: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703b7    1
+ BackgroundDexOp-5348  [004] ....    67.985319: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703b6    1
+ BackgroundDexOp-5348  [004] ....    67.986109: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703bb    1
+ BackgroundDexOp-5348  [004] ....    68.000918: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703ba    1
+ BackgroundDexOp-5348  [004] ....    68.001670: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703c3    1
+ BackgroundDexOp-5348  [004] ....    68.016919: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703c2    1
+ BackgroundDexOp-5348  [004] ....    68.017674: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703cc    1
+ BackgroundDexOp-5348  [004] ....    68.030419: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703cb    1
+ BackgroundDexOp-5348  [004] ....    68.031077: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703d0    1
+ BackgroundDexOp-5348  [004] ....    68.039534: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703cf    1
+ BackgroundDexOp-5348  [004] ....    68.040231: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa01    1
+ BackgroundDexOp-5348  [004] ....    68.063254: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa00    1
+ BackgroundDexOp-5348  [004] ....    68.063955: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa0b    1
+ BackgroundDexOp-5348  [004] ....    68.071221: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa0a    1
+ BackgroundDexOp-5348  [004] ....    68.071906: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa0f    1
+ BackgroundDexOp-5348  [004] ....    68.078992: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa0e    1
+ BackgroundDexOp-5348  [004] ....    68.079757: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7901e    1
+ BackgroundDexOp-5348  [004] ....    68.080173: f2fs_trace_ios: 103: 19    0 ----------------  1    10        6c985    1
+ BackgroundDexOp-5348  [004] ....    68.080696: f2fs_trace_ios: 103: 19    0 ----------------  2    10        78ae0    1
+ BackgroundDexOp-5348  [004] ....    68.081090: f2fs_trace_ios: 103: 19    0 ----------------  1    10        6c385    1
+ BackgroundDexOp-5348  [004] ....    68.081522: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa13    1
+ BackgroundDexOp-5348  [005] ....    68.091118: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa12    1
+ BackgroundDexOp-5348  [005] ....    68.092394: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa17    1
+ BackgroundDexOp-5348  [005] ....    68.101851: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa16    1
+ BackgroundDexOp-5348  [005] ....    68.102599: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa1b    1
+ BackgroundDexOp-5348  [005] ....    68.112495: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa1a    1
+ BackgroundDexOp-5348  [005] ....    68.113253: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa1f    1
+ BackgroundDexOp-5348  [005] ....    68.122700: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa1e    1
+ BackgroundDexOp-5348  [005] ....    68.123451: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa23    1
+ BackgroundDexOp-5348  [005] ....    68.131601: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa22    1
+ BackgroundDexOp-5348  [005] ....    68.132289: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa27    1
+ BackgroundDexOp-5348  [005] ....    68.146865: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa26    1
+ BackgroundDexOp-5348  [005] ....    68.147597: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa2f    1
+ BackgroundDexOp-5348  [005] ....    68.155433: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa2e    1
+ BackgroundDexOp-5348  [005] ....    68.156185: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa33    1
+ BackgroundDexOp-5348  [005] ....    68.176433: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa32    1
+ BackgroundDexOp-5348  [005] ....    68.177183: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa3f    1
+ BackgroundDexOp-5348  [005] ....    68.191521: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa3e    1
+ BackgroundDexOp-5348  [005] ....    68.192258: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa47    1
+ BackgroundDexOp-5348  [005] ....    68.206032: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa46    1
+ BackgroundDexOp-5348  [005] ....    68.206742: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa4f    1
+ BackgroundDexOp-5348  [005] ....    68.214713: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa4e    1
+ BackgroundDexOp-5348  [005] ....    68.215446: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa53    1
+ BackgroundDexOp-5348  [005] ....    68.223515: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa52    1
+ BackgroundDexOp-5348  [005] ....    68.224173: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa56    1
+ BackgroundDexOp-5348  [005] ....    68.235395: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa55    1
+ BackgroundDexOp-5348  [005] ....    68.236018: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa58    1
+ BackgroundDexOp-5348  [005] ....    68.251186: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa57    1
+ BackgroundDexOp-5348  [005] ....    68.251993: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa5b    1
+ BackgroundDexOp-5348  [005] ....    68.261267: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa5a    1
+ BackgroundDexOp-5348  [005] ....    68.262115: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa5f    1
+ BackgroundDexOp-5348  [005] ....    68.273385: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa5e    1
+ BackgroundDexOp-5348  [005] ....    68.274127: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa63    1
+ BackgroundDexOp-5348  [005] ....    68.290056: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa62    1
+ BackgroundDexOp-5348  [005] ....    68.290831: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa6b    1
+ BackgroundDexOp-5348  [005] ....    68.300978: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa6a    1
+ BackgroundDexOp-5348  [005] ....    68.301792: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa6f    1
+ BackgroundDexOp-5348  [005] ....    68.312468: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa6e    1
+ BackgroundDexOp-5348  [005] ....    68.313193: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa73    1
+ BackgroundDexOp-5348  [005] ....    68.320882: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa72    1
+ BackgroundDexOp-5348  [005] ....    68.321587: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa77    1
+ BackgroundDexOp-5348  [005] ....    68.329862: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa76    1
+ BackgroundDexOp-5348  [005] ....    68.330600: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa7b    1
+ BackgroundDexOp-5348  [005] ....    68.345625: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fa7a    1
+ BackgroundDexOp-5348  [005] ....    68.346380: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc04    1
+ BackgroundDexOp-5348  [005] ....    68.355091: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc03    1
+ BackgroundDexOp-5348  [005] ....    68.355838: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc08    1
+ BackgroundDexOp-5348  [005] ....    68.372480: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc07    1
+ BackgroundDexOp-5348  [005] ....    68.373182: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7020f    1
+ BackgroundDexOp-5348  [005] ....    68.381239: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7020e    1
+ BackgroundDexOp-5348  [005] ....    68.381939: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70213    1
+ BackgroundDexOp-5348  [005] ....    68.400943: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70212    1
+ BackgroundDexOp-5348  [005] ....    68.401729: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7021f    1
+ BackgroundDexOp-5348  [005] ....    68.414760: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7021e    1
+ BackgroundDexOp-5348  [005] ....    68.415486: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70227    1
+ BackgroundDexOp-5348  [005] ....    68.423230: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70226    1
+ BackgroundDexOp-5348  [005] ....    68.423969: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7022b    1
+ BackgroundDexOp-5348  [005] ....    68.462069: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7022a    1
+ BackgroundDexOp-5348  [005] ....    68.462858: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70243    1
+ BackgroundDexOp-5348  [005] ....    68.470757: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70242    1
+ BackgroundDexOp-5348  [005] ....    68.471646: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703d4    1
+ BackgroundDexOp-5348  [005] ....    68.497934: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703d3    1
+ BackgroundDexOp-5348  [005] ....    68.498995: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703e2    1
+ BackgroundDexOp-5348  [005] ....    68.507077: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703e1    1
+ BackgroundDexOp-5348  [005] ....    68.507769: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703e6    1
+ BackgroundDexOp-5348  [005] ....    68.515753: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703e5    1
+ BackgroundDexOp-5348  [005] ....    68.516428: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703e9    1
+ BackgroundDexOp-5348  [005] ....    68.535876: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703e8    1
+ BackgroundDexOp-5348  [005] ....    68.536610: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703f4    1
+ BackgroundDexOp-5348  [005] ....    68.555779: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703f3    1
+ BackgroundDexOp-5348  [005] ....    68.556634: f2fs_trace_ios: 103: 19    0 ----------------  2    10        78ae3    1
+ BackgroundDexOp-5348  [005] ....    68.557059: f2fs_trace_ios: 103: 19    0 ----------------  1    10        6c63f    1
+ BackgroundDexOp-5348  [005] ....    68.557498: f2fs_trace_ios: 103: 19    0 ----------------  2    10        78ae4    1
+ BackgroundDexOp-5348  [005] ....    68.557892: f2fs_trace_ios: 103: 19    0 ----------------  1    10        6c3bb    1
+ BackgroundDexOp-5348  [005] ....    68.558347: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703fe    1
+ BackgroundDexOp-5348  [005] ....    68.576463: f2fs_trace_ios: 103: 19    0 ----------------  2    10        703fd    1
+ BackgroundDexOp-5348  [005] ....    68.577197: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70407    1
+ BackgroundDexOp-5348  [005] ....    68.586075: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70406    1
+ BackgroundDexOp-5348  [005] ....    68.586779: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7040b    1
+ BackgroundDexOp-5348  [005] ....    68.605676: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7040a    1
+ BackgroundDexOp-5348  [005] ....    68.606356: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70415    1
+ BackgroundDexOp-5348  [005] ....    68.615324: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70414    1
+ BackgroundDexOp-5348  [005] ....    68.616062: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70419    1
+ BackgroundDexOp-5348  [005] ....    68.624610: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70418    1
+ BackgroundDexOp-5348  [005] ....    68.625374: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70247    1
+ BackgroundDexOp-5348  [005] ....    68.641591: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70246    1
+ BackgroundDexOp-5348  [005] ....    68.642330: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc12    1
+ BackgroundDexOp-5348  [005] ....    68.657271: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc11    1
+ BackgroundDexOp-5348  [005] ....    68.657979: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc18    1
+ BackgroundDexOp-5348  [005] ....    68.671226: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc17    1
+ BackgroundDexOp-5348  [005] ....    68.671946: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc20    1
+ BackgroundDexOp-5348  [005] ....    68.681134: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc1f    1
+ BackgroundDexOp-5348  [005] ....    68.681946: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc24    1
+ BackgroundDexOp-5348  [005] ....    68.696731: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc23    1
+ BackgroundDexOp-5348  [005] ....    68.697450: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc2c    1
+ BackgroundDexOp-5348  [005] ....    68.705583: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc2b    1
+ BackgroundDexOp-5348  [005] ....    68.706319: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc30    1
+ BackgroundDexOp-5348  [005] ....    68.719933: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc2f    1
+ BackgroundDexOp-5348  [005] ....    68.720693: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc39    1
+ BackgroundDexOp-5348  [005] ....    68.741450: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc38    1
+ BackgroundDexOp-5348  [005] ....    68.742296: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc41    1
+ BackgroundDexOp-5348  [005] ....    68.751985: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc40    1
+ BackgroundDexOp-5348  [005] ....    68.752707: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc45    1
+ BackgroundDexOp-5348  [005] ....    68.773319: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc44    1
+ BackgroundDexOp-5348  [005] ....    68.774104: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc4d    1
+ BackgroundDexOp-5348  [005] ....    68.806665: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc4c    1
+ BackgroundDexOp-5348  [005] ....    68.807438: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc5e    1
+ BackgroundDexOp-5348  [005] ....    68.815444: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc5d    1
+ BackgroundDexOp-5348  [005] ....    68.816161: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc62    1
+ BackgroundDexOp-5348  [005] ....    68.834556: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc61    1
+ BackgroundDexOp-5348  [005] ....    68.835295: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc6e    1
+ BackgroundDexOp-5348  [005] ....    68.844666: f2fs_trace_ios: 103: 19    0 ----------------  2    10        6fc6d    1
+ BackgroundDexOp-5348  [005] ....    68.845429: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70421    1
+ BackgroundDexOp-5348  [005] ....    68.859013: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70420    1
+ BackgroundDexOp-5348  [005] ....    68.859758: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70427    1
+ BackgroundDexOp-5348  [005] ....    68.869020: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70426    1
+ BackgroundDexOp-5348  [005] ....    68.869754: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7042a    1
+ BackgroundDexOp-5348  [005] ....    68.890104: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70429    1
+ BackgroundDexOp-5348  [005] ....    68.890843: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7024d    1
+ BackgroundDexOp-5348  [005] ....    68.899125: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7024c    1
+ BackgroundDexOp-5348  [005] ....    68.899839: f2fs_trace_ios: 103: 19    0 ----------------  2    10        70250    1
+   system_server-3877  [000] ...1    69.111655: suspend_resume: suspend_enter[3] begin
+   system_server-3877  [000] ...1    69.111732: suspend_resume: sync_filesystems[0] begin
+   kworker/u16:6-1823  [000] ....    69.112405: f2fs_trace_ios: 103: 19    0 ----------------  2    10        7024f    1
+   kworker/u16:6-1823  [000] ....    69.112695: f2fs_trace_ios: 103: 19  fd8 ----------------  0     1        6924a    1
+   kworker/u16:6-1823  [000] ....    69.120857: f2fs_trace_ios: 103: 19 102f ----------------  0     1        6924b    2
+   system_server-3877  [000] ....    69.128504: f2fs_trace_ios: 103: 19  eec ----------------  1   411        6cd75    1
+   system_server-3877  [003] ....    69.131722: f2fs_trace_ios: 103: 19  71f ----------------  2   411        791b3    1
+   system_server-3877  [003] ....    69.131779: f2fs_trace_ios: 103: 19  fd8 ----------------  2   411        707ef    1
+   system_server-3877  [003] ....    69.132499: f2fs_trace_ios: 103: 19 102f ----------------  2   411        707f0    1
+   system_server-3877  [003] ....    69.134651: f2fs_trace_ios: 103: 19  f25 ----------------  3   471          60e    3
+   system_server-3877  [003] ....    69.135825: f2fs_trace_ios: 103: 19  f25 ----------------  3   471          200    4
+   system_server-3877  [003] ...1    69.136871: suspend_resume: sync_filesystems[0] end
+   system_server-3877  [003] ...1    69.140282: suspend_resume: freeze_processes[0] begin
+   system_server-3877  [003] ...1    69.150987: suspend_resume: freeze_processes[0] end
+   system_server-3877  [003] ...1    69.150994: suspend_resume: suspend_enter[3] end
+   system_server-3877  [003] ...1    69.151069: suspend_resume: dpm_prepare[2] begin
+   system_server-3877  [003] ...1    69.153511: suspend_resume: dpm_prepare[2] end
+   system_server-3877  [003] ...1    69.153517: suspend_resume: dpm_suspend[2] begin
+   system_server-3877  [004] ...1    69.210956: suspend_resume: dpm_suspend[2] end
+   system_server-3877  [004] ...1    69.210968: suspend_resume: dpm_suspend_late[2] begin
+   system_server-3877  [001] ...1    69.233330: suspend_resume: dpm_suspend_late[2] end
+   system_server-3877  [001] ...1    69.233340: suspend_resume: dpm_suspend_noirq[2] begin
+   system_server-3877  [004] ...1    69.256918: suspend_resume: dpm_suspend_noirq[2] end
+   system_server-3877  [004] ...1    69.256952: suspend_resume: CPU_OFF[1] begin
+   system_server-3877  [000] ...1    69.342352: suspend_resume: CPU_OFF[1] end
+   system_server-3877  [000] ...1    69.342370: suspend_resume: CPU_OFF[2] begin
+   system_server-3877  [000] ...1    69.401012: suspend_resume: CPU_OFF[2] end
+   system_server-3877  [000] ...1    69.401029: suspend_resume: CPU_OFF[3] begin
+   system_server-3877  [000] ...1    69.460042: suspend_resume: CPU_OFF[3] end
+   system_server-3877  [000] ...1    69.460050: suspend_resume: CPU_OFF[4] begin
+   system_server-3877  [000] ...1    69.518742: suspend_resume: CPU_OFF[4] end
+   system_server-3877  [000] ...1    69.518749: suspend_resume: CPU_OFF[5] begin
+   system_server-3877  [000] ...1    69.577882: suspend_resume: CPU_OFF[5] end
+   system_server-3877  [000] ...1    69.577889: suspend_resume: CPU_OFF[6] begin
+   system_server-3877  [000] ...1    69.626900: suspend_resume: CPU_OFF[6] end
+   system_server-3877  [000] ...1    69.626907: suspend_resume: CPU_OFF[7] begin
+   system_server-3877  [000] ...1    69.666050: suspend_resume: CPU_OFF[7] end
+   system_server-3877  [000] d..1    69.666060: suspend_resume: syscore_suspend[0] begin
+   system_server-3877  [000] d..1    69.666079: suspend_resume: syscore_suspend[0] end
+   system_server-3877  [000] d..1    69.666079: suspend_resume: machine_suspend[3] begin
+   system_server-3877  [000] d..1    69.666079: suspend_resume: machine_suspend[3] end
+   system_server-3877  [000] d..1    69.666079: suspend_resume: syscore_resume[0] begin
+   system_server-3877  [000] dn.1    69.666093: suspend_resume: syscore_resume[0] end
+   system_server-3877  [000] ...1    69.667361: suspend_resume: CPU_ON[1] begin
+   system_server-3877  [000] ...1    69.717916: suspend_resume: CPU_ON[1] end
+   system_server-3877  [000] ...1    69.718361: suspend_resume: CPU_ON[2] begin
+   system_server-3877  [000] ...1    69.769285: suspend_resume: CPU_ON[2] end
+   system_server-3877  [000] ...1    69.769652: suspend_resume: CPU_ON[3] begin
+   system_server-3877  [000] ...1    69.820851: suspend_resume: CPU_ON[3] end
+   system_server-3877  [000] ...1    69.821427: suspend_resume: CPU_ON[4] begin
+   system_server-3877  [000] ...1    69.885187: suspend_resume: CPU_ON[4] end
+   system_server-3877  [000] ...1    69.885590: suspend_resume: CPU_ON[5] begin
+   system_server-3877  [000] ...1    69.944666: suspend_resume: CPU_ON[5] end
+   system_server-3877  [000] ...1    69.945035: suspend_resume: CPU_ON[6] begin
+   system_server-3877  [000] ...1    70.006239: suspend_resume: CPU_ON[6] end
+   system_server-3877  [000] ...1    70.006607: suspend_resume: CPU_ON[7] begin
+   system_server-3877  [000] ...1    70.078902: suspend_resume: CPU_ON[7] end
+   system_server-3877  [000] ...1    70.079375: suspend_resume: dpm_resume_noirq[16] begin
+   system_server-3877  [004] ...1    70.090615: suspend_resume: dpm_resume_noirq[16] end
+   system_server-3877  [004] ...1    70.090624: suspend_resume: dpm_resume_early[16] begin
+   system_server-3877  [004] ...1    70.106258: suspend_resume: dpm_resume_early[16] end
+   system_server-3877  [004] ...1    70.106267: suspend_resume: dpm_resume[16] begin
+   system_server-3877  [004] ...1    70.121729: suspend_resume: dpm_resume[16] end
+   system_server-3877  [004] ...1    70.121737: suspend_resume: dpm_complete[16] begin
+   system_server-3877  [004] ...1    70.125459: suspend_resume: dpm_complete[16] end
+   system_server-3877  [004] ...1    70.125466: suspend_resume: resume_console[3] begin
+   system_server-3877  [004] ...1    70.127442: suspend_resume: resume_console[3] end
+   system_server-3877  [004] ...1    70.127482: suspend_resume: thaw_processes[0] begin
+   system_server-3877  [004] ...1    70.133493: suspend_resume: thaw_processes[0] end
+ ActivityManager-3866  [002] ....    70.166395: f2fs_trace_ios: 103: 19  f1a ----------------  1   411        6cd76    1
+ ActivityManager-3866  [002] ....    70.166445: f2fs_trace_ios: 103: 19  f1a ----------------  2   411        791b4    1
+ ActivityManager-3866  [002] ....    70.166697: f2fs_trace_ios: 103: 19  f1a ----------------  2   411        707f1    1
+   system_server-3820  [004] ....    70.221512: f2fs_trace_ios: 103: 19  f1a ----------------  3   471          80f    2
+ ActivityManager-3866  [002] ....    70.223161: f2fs_trace_ios: 103: 19  f1a ----------------  3   471          400    4
+   system_server-3820  [004] ....    70.223528: f2fs_trace_ios: 103: 19  eec ----------------  0   411        6b861    1
+   system_server-3820  [000] ....    70.225123: f2fs_trace_ios: 103: 19  eec ----------------  2   411        707f2    1
+   system_server-3820  [004] ....    70.227216: f2fs_trace_ios: 103: 19  eec ----------------  0   411        6b861    1
+   system_server-3820  [001] ....    70.228736: f2fs_trace_ios: 103: 19  eec ----------------  2   411        707f3    1
+ ActivityManager-3866  [002] ....    70.229915: f2fs_trace_ios: 103: 19  f1a ----------------  1   411        6cd77    2
+ ActivityManager-3866  [002] ....    70.229953: f2fs_trace_ios: 103: 19  f1a ----------------  2   411        791b5    1
+ ActivityManager-3866  [002] ....    70.230215: f2fs_trace_ios: 103: 19  f1a ----------------  2   411        707f4    2
+ ActivityManager-3866  [002] ....    70.230263: f2fs_trace_ios: 103: 19  f1a ----------------  3   471          60f    2
+ ActivityManager-3866  [001] ....    70.230890: f2fs_trace_ios: 103: 19  f1a ----------------  3   471          a16    1
+ ActivityManager-3866  [001] ....    70.234495: f2fs_trace_ios: 103: 19  f1a ----------------  3   471          200    4
+ notification-sq-4017  [005] ....    70.530766: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        6924d    4
+ notification-sq-4017  [005] ....    70.539083: f2fs_trace_ios: 103: 19  fb1 ----------------  2   411        707f6    1
+ notification-sq-4017  [005] ....    70.539417: f2fs_trace_ios: 103: 19  f1a ----------------  1   411        6cd79    2
+ notification-sq-4017  [005] ....    70.539458: f2fs_trace_ios: 103: 19  fb1 ----------------  2   411        791b6    1
+ notification-sq-4017  [005] ....    70.539622: f2fs_trace_ios: 103: 19  f1a ----------------  2   411        707f7    1
+ notification-sq-4017  [004] ....    70.545931: f2fs_trace_ios: 103: 19  fb1 ----------------  3   471          80e    3
+ notification-sq-4017  [004] ....    70.546500: f2fs_trace_ios: 103: 19  fb1 ----------------  3   471          400    4
+ notification-sq-4017  [001] ....    70.548006: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        6924d    1
+ notification-sq-4017  [001] ....    70.548283: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        6b889    1
+ notification-sq-4017  [001] ....    70.548336: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        42073    1
+ notification-sq-4017  [002] ....    70.549874: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        6920e    1
+ notification-sq-4017  [005] ....    70.550793: f2fs_trace_ios: 103: 19  fb1 ----------------  2   411        707f8    1
+ notification-sq-4017  [004] .n..    70.557309: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        69251    4
+ notification-sq-4017  [004] ....    70.560577: f2fs_trace_ios: 103: 19  fb1 ----------------  2   411        707f9    1
+ notification-sq-4017  [004] ....    70.561481: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        69251    1
+ notification-sq-4017  [004] ....    70.561667: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        6b889    1
+ notification-sq-4017  [004] ....    70.561707: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        42073    1
+ notification-sq-4017  [004] ....    70.562825: f2fs_trace_ios: 103: 19  fb1 ----------------  0   411        6920e    1
+ notification-sq-4017  [004] ....    70.563566: f2fs_trace_ios: 103: 19  fb1 ----------------  2   411        707fa    1
