@@ -5,6 +5,7 @@
 #include <sys/time.h>
 #include <errno.h>
 
+//两个值得学习的点
 
 static inline int bad_filename(const char *filename){
 	const char *ptr;
