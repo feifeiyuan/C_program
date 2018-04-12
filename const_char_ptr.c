@@ -5,6 +5,7 @@
 #include <sys/time.h>
 
 // 实际上保证了，传入的值不会被改变
+// 这个操作是我平时没有注意到的地方
 void get_ptr(const char *ptr){
 	ptr[2]='j';//报错向只读位置赋值
 	printf("ptr is %s\n",ptr);
